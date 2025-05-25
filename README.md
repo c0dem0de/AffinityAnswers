@@ -39,7 +39,7 @@ Write a shell script to extract 'Scheme Name' and 'Asset Value' from [NAVAll.txt
 **[View Code](https://github.com/c0dem0de/AffinityAnswers/blob/main/scheme-NAV.sh)**
 
 
-### Should this data be in JSON instead?
+#### Should this data be in JSON instead?
 
 > CSV and TSV formats are best suited for simple, tabular visualisation and needs to be opened in softwares like Excel.  
 > If the data were more complex, with nested structures or relationships between different tables, using a JSON format would be more appropriate apporach, as it can represent hierarchical data more effectively.
