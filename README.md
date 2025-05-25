@@ -38,7 +38,6 @@ Write a shell script to extract 'Scheme Name' and 'Asset Value' from [NAVAll.txt
 
 **[View Code](https://github.com/c0dem0de/AffinityAnswers/blob/main/scheme-NAV.sh)**
 
----
 
 ### Should this data be in JSON instead?
 
