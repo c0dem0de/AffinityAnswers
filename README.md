@@ -1,29 +1,48 @@
-# AffinityAnswers
-Questions asked for the internship
 
-Q1.
-I am searching for a "Car Cover" on OLX - using "www.olx.in/items/q-car-cover". Write a python program that gives me the search results in a file.
-[Code](https://github.com/c0dem0de/AffinityAnswers/blob/main/olx-ads.py)
+# AffinityAnswers Internship Questions
 
-Usage:
-1. Setup virtual environment
-```sh
-python -m venv venv
-```
-2. Install dependencies
-```sh
-pip install httpx selectolax
-```
-3. Run script
-```sh
-python olx-ads.py
-```
+This repository contains solutions to questions asked for the AffinityAnswers internship.
 
-Q2.
-Write a shell script to extract 'Scheme Name' and 'Asset Value' from "https://www.amfiindia.com/spaqes/NAVAll.txt" and save as TSV.
-[Code](https://github.com/c0dem0de/AffinityAnswers/blob/main/scheme-NAV.sh)
+---
 
-Should this data be in JSON instead?
-> Given the data is in CSV, and then converted to TSV these formats are best suited if to be opened and viewed easily in softwares like Excel. Had the data have more nested structures, nodes and relations to different tables, using a json format would be a better choice for better visualisation and hierarchical representation.  
+## Q1. OLX Car Cover Search
 
+**Task:**  
+Search for "Car Cover" on OLX using [www.olx.in/items/q-car-cover](https://www.olx.in/items/q-car-cover) and write a Python program to save the search results to a file.
 
+**[View Code](https://github.com/c0dem0de/AffinityAnswers/blob/main/olx-ads.py)**
+
+### Usage
+
+1. **Set up a virtual environment:**
+    ```sh
+    python -m venv venv
+    ```
+
+2. **Install dependencies:**
+    ```sh
+    pip install httpx selectolax
+    ```
+
+3. **Run the script:**
+    ```sh
+    python olx-ads.py
+    ```
+
+---
+
+## Q2. Extract Scheme Name and Asset Value from AMFI
+
+**Task:**  
+Write a shell script to extract 'Scheme Name' and 'Asset Value' from [NAVAll.txt](https://www.amfiindia.com/spages/NAVAll.txt) and save the results as a TSV file.
+
+**[View Code](https://github.com/c0dem0de/AffinityAnswers/blob/main/scheme-NAV.sh)**
+
+---
+
+### Should this data be in JSON instead?
+
+> CSV and TSV formats are best suited for simple, tabular visualisation and needs to be opened in softwares like Excel.  
+> If the data were more complex, with nested structures or relationships between different tables, using a JSON format would be more appropriate apporach, as it can represent hierarchical data more effectively.
+
+---
